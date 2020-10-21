@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-color: turquoise;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.recipe {
+  width: 350px;
+  height: 800px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.ingredients {
+  text-align: center;
+  list-style: none;
+}
+
+.search-bar {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 5px;
+}
+
+.search-btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background: teal;
+  border-style: none;
+}
